@@ -1,8 +1,8 @@
-package Algorithms;
+package SearchAndSort;
 
 import static org.junit.Assert.*;
 
-import org.junit.Assert;
+import SearchAndSort.Binarysearch;
 import org.junit.Test;
 import static org.junit.Assert.assertThat;
 

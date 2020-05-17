@@ -1,5 +1,6 @@
-package Algorithms;
+package InputAndOutput;
 
+import InputAndOutput.NumberOrString;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -46,6 +47,13 @@ public class NumberOrStringTest {
         boolean expect6 = true;
         boolean result6 = NumberOrString.isDigit(value6);
         assertEquals(result6,expect6);
+    }
+    @Test
+    public void primer7() {
+        String value7 = "3.14ghg";
+        boolean expect7 = false;
+        boolean result7 = NumberOrString.isDigit(value7);
+        assertEquals(result7,expect7);
     }
 
 }
