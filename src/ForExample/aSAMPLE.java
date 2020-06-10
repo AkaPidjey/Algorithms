@@ -1,4 +1,4 @@
-package Algorithms;
+package ForExample;
 
 public class aSAMPLE {
 

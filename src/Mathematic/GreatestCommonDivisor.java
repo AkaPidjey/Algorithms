@@ -25,7 +25,7 @@ public class GreatestCommonDivisor {
             int count1 = Integer.parseInt(str1);
             int count2 = Integer.parseInt(str2);
             br.close();
-            System.out.println("GSD=> " + gsdV1(count1, count2));
+            System.out.println("GСD=> " + gсdV1(count1, count2));
         } catch (IOException e) {
             e.printStackTrace();
         } catch (NumberFormatException e) {
@@ -33,7 +33,7 @@ public class GreatestCommonDivisor {
         }
     }
 
-    public static int gsdV1(int count1, int count2) {
+    public static int gсdV1(int count1, int count2) {
         int gsd = 0;
         int min = 0;
 
@@ -56,15 +56,10 @@ public class GreatestCommonDivisor {
         return gsd;
     }
 
-    public static int gsdV2(int a, int b) {
+    public static int gсdV2(int a, int b) {
         if (b == 0) {
             return Math.abs(a);
         }
-        return gsdV2(b, a % b);
+        return gсdV2(b, a % b);
     }
-
-
-
-
-
 }
